@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    background-color: white;
+    height: 100px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    border-radius: 5px;
+    box-shadow:5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 400px;
+    row-gap: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(154, 205, 50);
+  font-weight: 700;
+
+}
+
+.Menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 40px;
+    row-gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Menu h2:hover{
+    background-color: #f0f2f5;
+    border-radius: 50px;
+}
+
+.Menu h2:active{
+    color: red;
+}
+
+.titulo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    color : rgb(154, 205, 50);
+}
+
+Main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info{
+    background-color: rgb(154, 205, 50);
+    height: 500px;
+    color: white;
+    text-align: center;
+
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 150px;
+}
+
+.formulario{
+    max-width: 700px;
+    width: 100%;
+    color:  rgb(105, 148, 19);
+}
+
+form{
+    display: grid;
+    width: 100%;
+    row-gap: 20px;
+
+}
+
+button{
+    background-color: rgb(6, 91, 209);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    height: 50px;
+    width: 100%;
+}
+
+textarea{
+    border: 1px solid #999;
+}
+
+input, textarea{
+  width: 100%;          
+  border: none;          
+  border-bottom: 1px solid #999; 
+  padding: 10px 5px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+}
+
+.maps iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
