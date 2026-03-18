@@ -215,7 +215,57 @@ footer{
     padding: 15px;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    padding: 100px;
+}
 
+.caja{
+  background-color: #ececec; 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+.img2{
+    background-color: #999;
+    height: 300px;
+    width: auto;
+}
+
+.caja:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: auto; 
+    margin-right: -10px; 
+    margin-bottom: -40px;
+    position: relative;         
+    animation: nuevo 1.5s infinite;
+}
+
+@keyframes nuevo {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
 
 @media (max-width: 768px) {
     
