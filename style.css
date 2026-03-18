@@ -103,7 +103,11 @@ button{
     border-radius: 5%;
     height: 50px;
     width: 100%;
-    font-weight: 600;
+    font-weight: 600; 
+}
+
+button a{
+    text-decoration: none;
 }
 
 button:hover{
