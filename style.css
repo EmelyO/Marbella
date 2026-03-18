@@ -102,6 +102,14 @@ button{
     border-radius: 5%;
     height: 50px;
     width: 100%;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgb(2, 107, 255);
+    transform: scale(1.25);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 0%;
 }
 
 textarea{
@@ -126,6 +134,7 @@ input, textarea{
 footer{
     background-color: rgb(154, 205, 50);
     width: auto;
+    margin-top: 50px;
 }
 
 .horario h5, #finSemana{
@@ -168,6 +177,44 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+footer{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    width: auto;
+}
+
+.foot i{
+   display: grid;
+    place-items: center;
+    background-color: rgb(154, 205, 50);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.foot i:hover{
+    transform: scale(1.25);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.copyright{
+    height: 50px;
+    background-color: rgb(131, 131, 131);
+    color: white;
+    justify-items: center;
+}
+
+
+.foot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 25px;
+    padding: 15px;
+}
+
 
 
 @media (max-width: 768px) {
